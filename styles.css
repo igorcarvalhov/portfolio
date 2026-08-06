@@ -1,5 +1,4 @@
 :root {
-    /* Tema Escuro (padrão) */
     --primary-color: #2A2A2A;
     --secondary-color: #00D2DF;
     --text-color: #FFFFFF;
@@ -543,7 +542,6 @@ footer p {
     font-size: 0.9rem;
 }
 
-/* Animações de Scroll */
 .hidden {
     opacity: 0;
     transform: translateY(30px);
@@ -555,7 +553,6 @@ footer p {
     transform: translateY(0);
 }
 
-/* Estilos do Formulário */
 .contact-form {
     background-color: var(--primary-color);
     padding: 2rem;
@@ -643,7 +640,6 @@ footer p {
     display: block;
 }
 
-/* Ajustes responsivos para o formulário */
 @media (max-width: 768px) {
     .contact-form {
         padding: 1.5rem;
@@ -659,7 +655,6 @@ footer p {
     }
 }
 
-/* Botão de tema */
 .theme-toggle {
     position: fixed;
     bottom: 2rem;
@@ -692,7 +687,6 @@ footer p {
     transform: rotate(180deg);
 }
 
-/* Ajustes para o tema claro */
 [data-theme="light"] .project-card {
     background-color: var(--card-bg);
     box-shadow: 0 5px 15px var(--shadow-color);
@@ -726,7 +720,6 @@ footer p {
     border-top-color: var(--border-color);
 }
 
-/* Estilos para Certificações */
 .certifications {
     padding: 100px 0;
     background-color: var(--background-color);
@@ -857,7 +850,6 @@ footer p {
     font-size: 0.8rem;
 }
 
-/* Ajustes para tema claro */
 [data-theme="light"] .certification-card {
     background-color: var(--card-bg);
     box-shadow: 0 5px 15px var(--shadow-color);
